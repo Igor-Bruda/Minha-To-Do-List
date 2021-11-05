@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<title>TO DO LIST</title>
+	<link rel="icon" href="imagens/tittle-icon.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
+	</style>
+</head>
+
+<body>
+
+	<header>
+		<div class="container">
+			<h1 class="titulo">TO DO LIST<img class="img-to-do-list" src="imagens/to-do-list-img.png"></h1>
+		</div>
+	</header>
+
+	<main>
+		<section class="container-main">
+			<h2>Bem Vindo(a)! O que vamos fazer hoje?</h2>
+
+			<div class="container-tarefa">
+				<form class="form-add" action="">
+					<input type="text" id="input-add" name="tarefa" class="input-add-tarefa" data-input
+						placeholder="✍️ adicionar tarefa...">
+					<button type="button" id="botao-add" class="botao">Add Tarefa</button>
+				</form>
+			</div>
+		</section>
+
+		<div class="conteiner-tarefas">
+			<ul class="lista" data-lista></ul>
+		</div>
+
+
+	</main>
+
+	<script type="module" src="javascript/principal.js"></script>
+
+</body>
+
+</html>
